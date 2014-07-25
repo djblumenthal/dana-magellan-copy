@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset="utf-8")
+		title Magellan
+
+	body
+		block content
+			h1 #{location}
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores tempore sapiente, porro! Nemo est eius repudiandae fugit placeat obcaecati pariatur hic neque officiis ea sit, sint autem tempora fugiat cumque.
+			form(method='post', action="/#{nextLocation}")
+				input(type="submit")
+			//- a(href='/?dataId=#{nextLocation}') Next Location
+		
