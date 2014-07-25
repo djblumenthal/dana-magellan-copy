@@ -1,33 +1,39 @@
 var locations = [
 	{
 	location: 'Seville',
-	nextLocation: 'Canary Islands',
-	dataId: 0
+	locationURLFriendly: 'seville',
+	// nextLocation: 'Canary Islands',
+	// dataID: 0
 	},
 	{
 	location: 'Canary Islands',
-	nextLocation: 'Cape Verde',
-	dataId: 1
+	locationURLFriendly: 'canary_islands',
+	// nextLocation: 'Cape Verde',
+	// dataID: 1
 	},
 	{
 	location: 'Cape Verde',
-	nextLocation: 'Strait of Magellan',
-	dataId: 2
+	locationURLFriendly: 'cape_verde',
+	// nextLocation: 'Strait of Magellan',
+	// dataID: 2
 	},
 	{
 	location: 'Strait of Magellan',
-	nextLocation: 'Guam',
-	dataId: 3
+	locationURLFriendly: 'strait_of_magellan',
+	// nextLocation: 'Guam',
+	// dataID: 3
 	},
 	{
 	location: 'Guam',
-	nextLocation: 'Phillipines',
-	dataId: 4
+	locationURLFriendly: 'guam',
+	// nextLocation: 'Phillipines',
+	// dataID: 4
 	},
 	{
 	location: 'Phillipines',
-	nextLocation: null,
-	dataId: 5
+	locationURLFriendly: 'phillipines',
+	// nextLocation: null,
+	// dataID: 5
 	}
 ];
 
